@@ -1,0 +1,19 @@
+[project]
+name = "lm2vlm"
+version = "0.1.0"
+description = "A 2-stage Vision-Language Model (VLM) in PyTorch, inspired by BLIP-2"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+dependencies = [
+    "torch>=2.1.0",
+    "transformers>=4.36.0",
+    "peft>=0.7.0",
+    "datasets>=2.16.0",
+    "pillow>=10.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
