@@ -1,0 +1,60 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "unlabeled",
+  "dataset_name": "conceptual_captions",
+  "dataset_size": 587216210,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/conceptual_captions@0bb028f274446e0b102c1253d087a98eeb4519a3/unlabeled/train-00000-of-00002.parquet": {
+      "num_bytes": 186743581,
+      "checksum": null
+    },
+    "hf://datasets/conceptual_captions@0bb028f274446e0b102c1253d087a98eeb4519a3/unlabeled/train-00001-of-00002.parquet": {
+      "num_bytes": 186741058,
+      "checksum": null
+    },
+    "hf://datasets/conceptual_captions@0bb028f274446e0b102c1253d087a98eeb4519a3/unlabeled/validation-00000-of-00001.parquet": {
+      "num_bytes": 1774069,
+      "checksum": null
+    }
+  },
+  "download_size": 375258708,
+  "features": {
+    "image_url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "caption": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 962474918,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 584517500,
+      "num_examples": 3318333,
+      "shard_lengths": [
+        2839167,
+        479166
+      ],
+      "dataset_name": "conceptual_captions"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 2698710,
+      "num_examples": 15840,
+      "dataset_name": "conceptual_captions"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
